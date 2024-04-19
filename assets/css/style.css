@@ -17,6 +17,16 @@ body{
     transform: scale(1.4);
 }
 
+.register-input button {
+    background-color: #242D52;
+    color: #fff;
+}
+
+.register-input button:hover {
+    background-color: #fff;
+    color: #242D52;
+}
+
 .attribution p a:hover{
     background-color: #242D52;
 }
