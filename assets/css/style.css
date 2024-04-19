@@ -16,3 +16,14 @@ body{
     transition: 300ms;
     transform: scale(1.4);
 }
+
+.attribution p a:hover{
+    background-color: #242D52;
+}
+
+.attribution span a:hover {
+    background-color: #242D52;
+    padding: 0 8px !important; 
+    transition: 300ms;
+    transform: scale(1.2);
+}
