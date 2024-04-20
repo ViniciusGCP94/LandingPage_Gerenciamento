@@ -5,11 +5,57 @@ body{
     background-repeat: repeat;
 }
 
-.hero-button:hover {
-    border: 2px solid red; /* cor dos botões */
+header {
+    border: 2px solid #242D52;
+}
+
+.nav li a {
+    font-weight: 500;
+    color: #242D52;
+}
+
+.nav li a:hover {
+    color: #F3603C;
+}
+
+button {
+    color: #fff;
+    background-color: #F3603C;
+    border: 2px solid #F3603C; /* cor dos botões */
     border-radius: 20px;
     text-align: center;
     padding-top: 0 ;
+}
+
+button:hover {
+    background-color: #f79b81;
+    color: #fff;
+    border: 2px solid #f79b81;
+}
+
+h1, h2, h6 {
+    color: #242D52;
+}
+
+.number {
+    background-color: #F3603C;
+}
+
+.simplify {
+    background-color: #F3603C;
+}
+
+.button-simplify {
+    color: #f79b81;
+    border: 2px solid #f79b81;
+    background-color: #fff;
+}
+
+.button-simplify:hover {
+    color: #F3603C;
+    background-color: #fff;
+    border: 2px solid #F3603C;
+    box-shadow: 5px 5px 5px #812610;
 }
 
 .socials a img:hover {
@@ -27,6 +73,10 @@ body{
     color: #242D52;
 }
 
+.attribution {
+    background-color: #F3603C;
+}
+
 .attribution p a:hover{
     background-color: #242D52;
 }
@@ -36,4 +86,5 @@ body{
     padding: 0 8px !important; 
     transition: 300ms;
     transform: scale(1.2);
+    border: 1px solid #fff;
 }
