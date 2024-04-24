@@ -41,6 +41,37 @@ h1, h2, h6 {
     background-color: #F3603C;
 }
 
+.testimonial {
+    border-radius: 15px;
+    background-color: #d9d9d9 !important;
+}
+
+.indicator {
+    width: 20% !important;
+    height: 8px !important;
+    border: 1px solid #242D52 !important;
+    border-radius: 20px !important;
+    margin: 0 !important;
+}
+
+.indicator.active {
+    width: 20% !important;
+    height: 8px !important;
+    background-color: #242D52 !important;
+    border-radius: 20px !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color:#fff !important;
+    background-color: #242D52 !important;
+    border-radius: 5px;
+}
+
 .simplify {
     background-color: #F3603C;
 }

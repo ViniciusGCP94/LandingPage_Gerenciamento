@@ -14,9 +14,9 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body style="overflow-x: hidden;">
+<body>
   <header class="py-4">
-    <div class="container d-flex justify-content-between align-items-center py-2">
+    <div class="container d-flex justify-content-between align-items-center py-2 ">
       <figure class="logo my-auto p-2">
         <img class="mt-2" src="assets/images/logo.svg" alt="logo Manage">
       </figure>
@@ -35,31 +35,31 @@
     </div>
   </header>
   <main>
-    <section class="hero container d-flex justify-content-between align-items-center">
-      <div class="hero-content col-6 d-grid gap-4 align-items-center">
-        <h1 class="display-4 mb-0 fw-bold"><strong>Bring everyone together to build better products.</strong></h1>
-        <p class="lead col-7 fs-6 mb-0">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
-        <button class="hero-button fw-bold col col-3 text-center rounded-pill py-2">Get Started</button>
+    <section class="hero container d-flex flex-lg-row justify-content-lg-between flex-md-column-reverse align-items-md-center">
+      <div class="hero-content col-lg-6 d-grid gap-4 align-items-center col-md-10 text-md-center">
+        <h1 class="display-4 mb-0 fw-bold "><strong>Bring everyone together to build better products.</strong></h1>
+        <p class="lead col-7 fs-6 mb-0 col-md-9 mx-md-auto">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+        <button class="hero-button fw-semibold col col-3 text-center rounded-pill py-2 mx-md-auto">Get Started</button>
       </div>
-      <div class="col-6 d-flex justify-content-end">
+      <div class="col-lg-6 d-lg-flex justify-content-lg-end col-md-10">
         <figure class="col-12 m-auto">
           <img class="col-12" src="/assets/images/illustration-intro.svg" alt="">
         </figure>
       </div>
     </section>
-    <section class="about container d-flex py-5">
-      <div class="mt-5">
+    <section class="about container d-flex flex-lg-row py-5 flex-md-column ">
+      <div class="mt-5 text-lg-start text-md-center">
         <h2 class="fw-bold">What’s different about Manage?</h2>
-        <p class="col-8">
+        <p class="col-8 ms-lg-0 mx-md-auto ">
           Manage provides all the functionality your team needs, without 
           the complexity. Our software is tailor-made for modern digital 
           product teams. 
         </p>
       </div>
-      <div class="mt-5">
-        <ul class="d-flex flex-column align-items-end mb-0">
-          <li class="d-flex col-10 py-1">
-            <div class="list-number px-4">
+      <div class="mt-lg-5 mt-md-3">
+        <ul class="d-flex flex-column align-items-lg-end mb-0 align-items-md-center ps-md-0">
+          <li class="d-flex flex-lg-row col-lg-10 py-1 flex-md-column col-md-8">
+            <div class="list-number px-lg-4 px-md-0 py-md-2">
               <span class="number fs-6 fw-bold px-3 py-1 text-light rounded-pill">01</span>
             </div>
             <div class="list-content">
@@ -71,8 +71,8 @@
               </p>
             </div>
           </li>
-          <li class="d-flex col-10 py1">
-            <div class="list-number px-4">
+          <li class="d-flex flex-lg-row col-lg-10 py-1 flex-md-column col-md-8">
+            <div class="list-number px-lg-4 px-md-0 py-md-2">
               <span class="number fs-6 fw-bold px-3 py-1 text-light rounded-pill">02</span>
             </div>
             <div class="list-content">
@@ -84,8 +84,8 @@
               </p>
             </div>
           </li>
-          <li class="d-flex col-10 py-1">
-            <div class="list-number px-4">
+          <li class="d-flex flex-lg-row col-lg-10 py-1 flex-md-column col-md-8">
+            <div class="list-number px-lg-4 px-md-0 py-md-2">
               <span class="number fs-6 fw-bold px-3 py-1 text-light rounded-pill">03</span>
             </div>
             <div class="list-content">
@@ -100,62 +100,72 @@
         </ul>
       </div>
     </section>
-    <section style="height: 90vh;" class="testimonials d-flex flex-column gap-4 py-4 align-items-center">
+    <section class="d-flex flex-column gap-4 py-5 align-items-center ">
       <h2 class="text-center fw-bold mt-4">What they’ve said</h2>
-      <div id="testimonialCarousel" style="padding-top: 90px; height: 55%;" class="carousel slide  col-12 d-flex gap-2">
-        <div style="background-color: #d9d9d9;" class=" slider background-blockquote col-4 position-relative">
-          <blockquote style="margin-top: -15%;" class="d-flex flex-column align-items-center text-center px-3 position-absolute">
-            <figure class="col-3">
-              <img class="col-12" src="./assets/images/avatar-anisha.png" alt="">
-            </figure>
-            <cite class="fw-bold fs-5">Anisha Li</cite>
-            <p>
-              "Manage has supercharged our team's workflow,The ability to maintain visibility on larger milestones at all times keeps everyone motivated."
-            </p>
-          </blockquote>
-        </div>
-            <div style="background-color: #d9d9d9;" class="slider-start background-blockquote col-4 position-relative">
-              <blockquote style="margin-top: -15%;" class="d-flex flex-column align-items-center text-center px-3 position-absolute">
-                <figure class="col-3">
-                  <img class="col-12" src="./assets/images/avatar-ali.png" alt="">
-                </figure>
-                <cite class="fw-bold fs-5">Ali Bravo</cite>
-                <p>
-                  "We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone iS much more focused."
-                </p>
-              </blockquote>
+        <div class="carousel slide container px-5" data-bs-ride="carousel" id="pass">
+          <div class="carousel-indicators gap-2 col-2 mx-auto mb-1">
+            <button class="indicator active" data-bs-target="#pass" data-bs-slide-to="0"></button>
+            <button class="indicator" data-bs-target="#pass" data-bs-slide-to="1"></button>
+            <button class="indicator" data-bs-target="#pass" data-bs-slide-to="2"></button>
+            <button class="indicator" data-bs-target="#pass" data-bs-slide-to="3"></button>
+          </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000" >
+                <div class="testimonial col-6 text-center mx-auto pt-2 pb-1">
+                  <figure class="col-2 mx-auto">
+                    <img class="col-12" src="./assets/images/avatar-anisha.png" alt="">
+                  </figure>
+                  <cite style="color: #242D52;" class="fw-bold fs-5">Anisha Li</cite>
+                  <p class="col-10 mx-auto">
+                    "Manage has supercharged our team's workflow,The ability to maintain visibility on larger milestones at all times keeps everyone motivated."
+                  </p>
+                </div>   
+              </div>
+              <div class="carousel-item " data-bs-interval="3000" >
+                <div class="testimonial col-6 text-center mx-auto pt-2 pb-1">
+                  <figure class="col-2 mx-auto">
+                    <img class="col-12" src="./assets/images/avatar-ali.png" alt="">
+                  </figure>
+                  <cite style="color: #242D52;" class="fw-bold fs-5">Ali Bravo</cite>
+                  <p class="col-10 mx-auto">
+                    "We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone iS much more focused."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item " data-bs-interval="3000" >
+                <div class="testimonial col-6 text-center mx-auto pt-2 pb-1">
+                  <figure class="col-2 mx-auto ">
+                    <img class="col-12" src="./assets/images/avatar-richard.png" alt="">
+                  </figure>
+                  <cite style="color: #242D52;" class="fw-bold fs-5">Richard Watts</cite>
+                  <p class="col-10 mx-auto">
+                    "Manage allows us to provide structure and process. It keeps us organized and tocused. I can't stop recommending them to everyone I talk to!"
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item " data-bs-interval="3000" >
+                <div class="testimonial col-6 text-center mx-auto pt-2 pb-1">
+                    <figure class="col-2 mx-auto">
+                      <img class="col-12" src="./assets/images/avatar-shanai.png" alt="">
+                    </figure>
+                    <cite style="color: #242D52;" class="fw-bold fs-5">Shanai Stock</cite>
+                    <p class="col-10 mx-auto">
+                      "Manage has streamlined our workflow and boosted team focus. It's allowed us to consolidate our tools, eliminating cross-channel confusion."
+                    </p>
+                </div>              
+              </div>
+              <button class="carousel-control-prev ms-5" data-bs-target="#pass" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+              <button class="carousel-control-next ms-5" data-bs-target="#pass" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button> 
             </div>
-            <div style="background-color: #d9d9d9;" class="slider background-blockquote col-4 position-relative ">
-              <blockquote style="margin-top: -15%;" class="d-flex flex-column align-items-center text-center px-3 position-absolute">
-                <figure class="col-3">
-                  <img class="col-12" src="./assets/images/avatar-richard.png" alt="">
-                </figure>
-                <cite class="fw-bold fs-5">Richard Watts</cite>
-                <p>
-                  "Manage allows us to provide structure and process. It keeps us organized and tocused. I can't stop recommending them to everyone I talk to!"
-                </p>
-              </blockquote>
-            </div>
-            <div style="background-color: #d9d9d9;" class="slider background-blockquote col-4 position-relative ">
-              <blockquote style="margin-top: -15%;" class="d-flex flex-column align-items-center text-center px-3 position-absolute">
-                <figure class="col-3">
-                  <img class="col-12" src="./assets/images/avatar-shanai.png" alt="">
-                </figure>
-                <cite class="fw-bold fs-5">Shanai Stock</cite>
-                <p>
-                  "Manage has streamlined our workflow and boosted team focus. It's allowed us to consolidate our tools, eliminating cross-channel confusion."
-                </p>
-              </blockquote>
-            </div>
-        </div>
-      <button style="width: 11%; height: 38px;" class=" mt-5 rounded-pill text-light fw-bold"> Get Started</button>
+          </div>
+        <button style="width: 11%; height: 38px;" class=" mt-lg-2 rounded-pill text-light fw-bold mt-md-0"> Get Started</button>
     </section>
     <section class="simplify py-5">
     <div class="container d-flex justify-content-between align-items-center">
       <p class="fs-1 fw-bold text-light col-5 mb-0">
           Simplify how your team works today.
       </p>
-      <button style="height: 40px; width: 13%;" class="button-simplify rounded-pill fw-bold ">
+      <button style="height: 40px; width: 13%;" class="button-simplify rounded-pill fw-bold">
           Get Started
       </button>
     </div>
@@ -163,8 +173,8 @@
   </main>  
   <footer style="background-color: #242D52;" class="pt-5">
     <div class="container d-flex justify-content-between mb-5 ">
-      <div class="footer-socials d-flex flex-column justify-content-between col-2">
-        <figure class="logo-footer">
+      <div class="footer-socials d-flex flex-lg-column justify-content-lg-between col-lg-2 flex-md-row col-md-6 ">
+        <figure class="logo-footer col-md-8 ">
           <img src="/assets/images/logo-white.svg" alt="">
         </figure>
         <figure class="socials col-10 d-flex justify-content-between px-1 mb-0 ">
