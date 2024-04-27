@@ -9,28 +9,27 @@ header {
     border: 2px solid #242D52;
 }
 
-.nav li a {
-    font-weight: 500;
-    color: #242D52;
+.nav-link {
+    font-weight: 500 !important;
+    color: #242D52 !important;
 }
 
-.nav li a:hover {
-    color: #F3603C;
+.nav-link:hover {
+    color: #F3603C !important;
 }
 
 button {
-    color: #fff;
-    background-color: #F3603C;
-    border: 2px solid #F3603C; /* cor dos botões */
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 0 ;
+    color: #fff !important;
+    background-color: #F3603C !important;
+    border: 2px solid #F3603C !important; /* cor dos botões */
+    border-radius: 20px !important;
+    text-align: center !important;
 }
 
 button:hover {
-    background-color: #f79b81;
-    color: #fff;
-    border: 2px solid #f79b81;
+    background-color: #f79b81 !important;
+    color: #fff !important;
+    border: 2px solid #f79b81 !important;
 }
 
 h1, h2, h6 {
@@ -62,13 +61,17 @@ h1, h2, h6 {
 }
 
 .carousel-control-prev, .carousel-control-next {
-    background-color: #fff !important;
+    background-color: #ffffff00 !important;
+    border: none !important;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #ffffff00 !important;
     border: none !important;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    color:#fff !important;
-    background-color: #242D52 !important;
+    background-color: #F3603C !important;
     border-radius: 5px;
 }
 
@@ -77,16 +80,16 @@ h1, h2, h6 {
 }
 
 .button-simplify {
-    color: #f79b81;
-    border: 2px solid #f79b81;
-    background-color: #fff;
+    color: #f79b81 !important;
+    border: 2px solid #f79b81 !important;
+    background-color: #fff !important;
 }
 
 .button-simplify:hover {
-    color: #F3603C;
-    background-color: #fff;
-    border: 2px solid #F3603C;
-    box-shadow: 5px 5px 5px #812610;
+    color: #F3603C !important;
+    border: 2px solid #F3603C !important;
+    background-color: #fff !important;
+    box-shadow: 5px 5px 5px #812610 !important;
 }
 
 .socials a img:hover {
@@ -94,14 +97,21 @@ h1, h2, h6 {
     transform: scale(1.4);
 }
 
+.menu-footer li a:hover {
+    color: #F3603C !important;
+}
+
 .register-input button {
-    background-color: #242D52;
-    color: #fff;
+    background-color: #fff !important;
+    color: #242D52 !important;
+    border: 1px solid #242D52 !important;
 }
 
 .register-input button:hover {
-    background-color: #fff;
-    color: #242D52;
+    background-color: #242D52 !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    box-shadow: 5px 3px 3px #d9d9d9 !important;
 }
 
 .attribution {

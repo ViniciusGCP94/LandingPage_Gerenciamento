@@ -16,24 +16,38 @@
 </head>
 <body>
   <header class="py-4">
-    <div class="container d-flex justify-content-between align-items-center py-2 ">
-      <figure class="logo my-auto p-2">
-        <img class="mt-2" src="assets/images/logo.svg" alt="logo Manage">
-      </figure>
-      <nav style="height: 36px;" class="nav col-6">
-        <ul class="nav col-12 justify-content-between d-none">
-          <li class="col-2 text-center pt-1"><a class="text-decoration-none" href="">Pricing</a></li>
-          <li class="col-2 text-center pt-1"><a class="text-decoration-none"  href="">Product</a></li>
-          <li class="col-2 text-center pt-1"><a class="text-decoration-none"  href="">About Us</a></li>
-          <li class="col-2 text-center pt-1"><a class="text-decoration-none"  href="">Careers</a></li>
-          <li class="col-3 text-center pt-1 px-2"><a class="text-decoration-none"  href="">Community</a></li>
-        </ul>
-      </nav>
-      <button style="height: 38px;" class="header-button fw-bold px-4 text-center rounded-pill d-none">
-        Get Started
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.svg" alt="logo Manage" class="mt-2">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-2">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Community</a>
+          </li>
+        </ul>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
     </div>
-  </header>
+  </nav>
+</header>
+
   <main>
     <section class="hero container-lg d-flex flex-lg-row justify-content-lg-between container-md flex-md-column-reverse align-items-md-center mt-md-3 flex-column-reverse align-items-center ">
       <div class="hero-content col-lg-6 d-grid gap-4 align-items-center col-md-10 text-md-center text-center ">
@@ -145,25 +159,27 @@
                     </p>
                 </div>              
               </div>
-              <button class="carousel-control-prev ms-lg-5 ms-md-0 d-none" data-bs-target="#pass" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-              <button class="carousel-control-next me-lg-5 me-md-0 d-none" data-bs-target="#pass" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button> 
+              <button class="carousel-control-prev ms-lg-5 d-md-block ms-md-0 d-none" data-bs-target="#pass" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+              <button class="carousel-control-next me-lg-5 d-md-block me-md-0 d-none" data-bs-target="#pass" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button> 
             </div>
           </div>
-        <button class=" mt-lg-2 rounded-pill text-light fw-bold mt-md-0 col-4 py-1"> Get Started</button>
+        <button class="mt-lg-2 col-lg-1  rounded-pill text-light fw-bold mt-md-0 col-4 py-1"> Get Started</button>
     </section>
     <section class="simplify py-5">
-    <div class="content container d-lg-flex justify-content-lg-between align-items-lg-center d-md-flex justify-content-md-between align-items-md-center d-flex flex-column align-items-center gap-4 ">
-      <p class="display-3 fw-bold text-light text-center col-10 mb-0">
+    <div class="content container justify-content-lg-between align-items-lg-center flex-md-row justify-content-md-between align-items-md-center gap-md-0 px-md-0 d-flex flex-column align-items-center gap-4 ">
+      <p class="display-3 col-lg-8 text-lg-start fw-bold text-light text-center col-10 mb-0">
           Simplify how your team works today.
       </p>
-      <button class="button-simplify rounded-pill fw-bold col-4 py-1">
+      <div class="container-button col-lg-4 d-flex justify-content-lg-end">
+        <button class="button-simplify col-lg-4 px-lg-0 rounded-pill fw-bold col-4 py-1">
           Get Started
-      </button>
+        </button>
+      </div> 
     </div>
     </section>
   </main>  
-  <footer style="background-color: #242D52;" class="pt-5">
-    <div class=" container position-relative d-flex flex-lg-row justify-content-lg-between mb-lg-5 flex-md-column-reverse flex-md-wrap pb-md-5 gap-md-3 flex-column-reverse flex-wrap gap-4 pe-5 ps-5 pb-5">
+  <footer style="background-color: #0f152e;" class="pt-5">
+    <div class="container p-lg-0 position-relative d-flex flex-lg-row justify-content-lg-between mb-lg-5 flex-md-column-reverse flex-md-wrap pb-md-5 gap-md-3 flex-column-reverse flex-wrap gap-4 pe-5 ps-5 pb-5">
       <div class="footer-socials flex-lg-column justify-content-lg-between col-lg-2 col-md-10 mx-md-auto d-flex flex-column-reverse align-items-center justify-content-between gap-4">
         <figure class="logo-footer justify-content-center col-md-6 col-10 mb-0 d-flex">
           <img class="" src="/assets/images/logo-white.svg" alt="">
@@ -177,37 +193,37 @@
         </figure>
       </div>
       <div class="col-lg-4 d-flex col-md-10 mx-md-auto justify-content-md-between">
-        <ul class="d-flex flex-column gap-2 col-6 ps-md-0 ps-0">
+        <ul class="menu-footer d-flex flex-column gap-2 col-6 ps-md-0 ps-0">
           <li class="list-unstyled "><a class="text-decoration-none text-light" href="">Home</a></li>
           <li class="list-unstyled "><a class="text-decoration-none text-light"  href="">Pricing</a></li>
           <li class="list-unstyled "><a class="text-decoration-none text-light"  href="">Products</a></li>
           <li class="list-unstyled "><a class="text-decoration-none text-light"  href="">About Us</a></li>
         </ul>
-        <ul class="d-flex flex-column gap-2 col-6 pe-md-0 text-md-end pe-0 text-end">
+        <ul class="menu-footer text-lg-start d-flex flex-column gap-2 col-6 pe-md-0 text-md-end pe-0 text-end">
             <li class="list-unstyled "><a class="text-decoration-none text-light"  href="">Careers</a></li>
             <li class="list-unstyled "><a class="text-decoration-none text-light"  href="">Community</a></li>
             <li class="list-unstyled "><a class="text-decoration-none text-light"  href="">Privacy Policy</a></li>
         </ul>
       </div> 
-      <div class="col-lg-4 position-relative col-md-10 mx-md-auto">
+      <div class="col-lg-4 me-lg-0 position-relative col-md-10 mx-md-auto">
         <div class="register-content justify-content-end ps-lg-0 ">
           <div class="register-input d-flex justify-content-between">
-            <input style="font-size: 14px;" class="col-lg-8 col-md-8 col-8 px-2 rounded-pill" type="email" placeholder="Digite seu email" >
-            <button class="col-3 ms-lg-4 ms-md-4 ms-0 border rounded-pill" type="submit" value="">Cadastro</button>
+            <input style="font-size: 14px; border: 1px solid #F3603C; color: #F3603C;" class="footer-input col-lg-8 col-md-8 col-8 rounded-pill" type="email" placeholder="Digite seu email" >
+            <button class="ms-lg-4 ms-md-4 col-3 ms-0 px-1 border border-1 rounded-pill" type="submit" value="">Cadastro</button>
           </div> 
-          <p style="font-size: 10px;" class="col-8 text-light mt-1 ms-1 mb-0">Cadastre para receber nossas promoções e notícias</p>
+          <p style="font-size: 10px; color: #F3603C;" class="col-8 mt-1 ms-1 mb-0">Cadastre para receber nossas promoções e notícias</p>
         </div>
       </div>
-      <div class="copyright position-absolute bottom-0 col-9 m-0 text-center mb-1 ">
+      <div class="copyright text-lg-end position-absolute bottom-0 end-0 col-9 m-0 text-center mb-1">
         <p style="font-size: 10px; color: #d9d9d9;" class="mb-0 "> Copyright 2024. All Rights Reserved </p>
       </div>
     </div>
-    <div style="font-size: 10px;" class="attribution d-flex align-items-center justify-content-center py-2 text-light flex-wrap">
-      <p class="mb-0 col-10 mt-1 ">
-        Challenge do site <a style="font-size: 10px; padding: 2px 4px;" class="text-reset btn border rounded-1 mb-1 ms-1" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    <div style="font-size: 14px;" class="attribution border flex-lg-nowrap align-items-lg-center d-flex align-items-center justify-content-center py-2 text-light flex-wrap">
+      <p class="d-flex align-items-lg-center m-lg-0  col-lg-auto mb-0 col-10 mt-1 ">
+        Challenge do site <a style="padding: 2px 4px;" class="mb-lg-0 text-reset btn border rounded-1 mb-1 ms-1" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
       </p> 
-      <span class="ms-2 col-12">
-          Feito por <a style="padding: 0; font-size: 10px;" class="nome btn text-light text-decoration-none mb-1 ms-lg-2 ms-md-2 ms-0 p-0" href="#">Vinicius Pereira</a>.
+      <span class="align-items-lg-center d-flex col-lg-auto ms-2 col-12">
+          Feito por <a style="padding: 2px 4px;" class="nome border px-1 btn m-lg-0 text-light text-decoration-none mb-1 ms-lg-2 ms-md-2 ms-0 p-0" href="#">Vinicius Pereira</a> 
       </span>
       
     </div>
